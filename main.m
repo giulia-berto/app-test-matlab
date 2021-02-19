@@ -3,9 +3,7 @@
 % Indiana University
 
 % Add submodules
-if ~isdeployed
-    addpath(genpath(pwd))
-end
+addpath(genpath(pwd))
 
 % Load config.json
 config = loadjson('config.json','ParseStringArray',1); 
