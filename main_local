@@ -1,0 +1,8 @@
+#!/bin/bash
+# Copyright (c) 2021 brainlife.io at University of Texas at Austin and Indiana University
+#
+# Author: Giulia Berto
+
+# Run main (locally)
+matlab -nosplash -nodisplay -r main
+matlab exit
