@@ -9,8 +9,8 @@
 # Author: Giulia Berto
 
 # Run matlab code locally
-#matlab -nosplash -nodisplay -r main
-#matlab exit
+matlab -nosplash -nodisplay -r main
+matlab exit
 
 # Run matlab compiled code
-singularity exec -e docker://brainlife/mcr:2020a ./compiled/main
+#singularity exec -e docker://brainlife/mcr:2020a ./compiled/main
