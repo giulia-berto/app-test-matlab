@@ -9,7 +9,7 @@
 # Author: Giulia Berto
 
 # Run matlab code locally
-#matlab -nodisplay -r main
+#matlab -nosplash -nodisplay -r main
 #matlab exit
 
 # Run matlab compiled code
